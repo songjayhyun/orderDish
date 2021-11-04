@@ -13,13 +13,19 @@ public class AppConfig {
         return dish;
     }
 
-    public Chef chef() {
+    public Chef chef(Dish menuItem) {
+        if (menuItem instanceof Galbi) {
+            return new KoreanChef();
+        }
 
-        return
-//                new KoreanChef();
-                 new ChineseChef();
-//              new WesternChef();
-     }
+        if (menuItem instanceof Pasta) {
+            return new WesternChef();
+        }
 
+        if (menuItem instanceof Dimsum) {
+            return new ChineseChef();
+        }
+
+        throw new IllegalStateException("해당 요리를 할 수 있는 셰프가 없습니다.");
+    }
 }
-
