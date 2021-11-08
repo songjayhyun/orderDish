@@ -1,3 +1,5 @@
+package dish;
+
 public abstract class Dish {
     private String name;
     private String howTo;

@@ -1,6 +1,16 @@
+package config;
+
+import chef.Chef;
+import chef.ChineseChef;
+import chef.KoreanChef;
+import chef.WesternChef;
+import dish.Dimsum;
+import dish.Dish;
+import dish.Galbi;
+import dish.Pasta;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class AppConfig {
 

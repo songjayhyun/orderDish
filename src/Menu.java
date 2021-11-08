@@ -1,3 +1,5 @@
+import dish.Dish;
+
 import java.util.List;
 
 public class Menu {

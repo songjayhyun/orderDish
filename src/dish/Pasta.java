@@ -1,8 +1,10 @@
-public class Galbi extends Dish {
+package dish;
 
-    private String name = "갈비";
+public class Pasta extends Dish {
+
+    private String name = "파스타";
     private String howTo = "젓가락";
-    private int price = 10000;
+    private int price = 12000;
 
     @Override
     public String getName() {

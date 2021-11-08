@@ -1,3 +1,5 @@
+package dish;
+
 public class Dimsum extends Dish {
 
     private String name = "딤섬";

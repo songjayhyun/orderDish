@@ -1,3 +1,7 @@
+import chef.Chef;
+import config.AppConfig;
+import dish.Dish;
+
 public class Customer {
 
     AppConfig appConfig = new AppConfig();
